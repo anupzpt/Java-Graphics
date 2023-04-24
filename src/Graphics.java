@@ -5,8 +5,6 @@ public class Graphics {
     Box box=new Box();
     Graphics(){
         frame.add(box);
-
-//        frame.setLayout(null);
         frame.setSize(400,400);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(false);
