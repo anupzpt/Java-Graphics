@@ -14,7 +14,6 @@ public class Box extends JPanel implements ActionListener {
     Box(){
         right.addActionListener(this);
         add(right);
-
         left.addActionListener(this);
         add(left);
     }
@@ -40,7 +39,5 @@ public class Box extends JPanel implements ActionListener {
             this.Box2X-=10;
             this.repaint();
         }
-
-
     }
 }
